@@ -8,3 +8,5 @@ set novisualbell
 set wrap
 set textwidth=80
 set formatoptions=qrn1
+
+colorscheme earendel
