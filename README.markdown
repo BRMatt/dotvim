@@ -300,4 +300,3 @@ randomly chosen bits of vim goodness.
 * `ci` change inside delimiters
 * `di` delete inside delimiters
 * `@@` execute last macro
-

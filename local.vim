@@ -12,8 +12,12 @@ set formatoptions=qrn1
 colorscheme earendel
 
 if has("autocmd")
+  " Automatically use markdown syntax highlighting for .md, .mkd and .markdown
+  " files
   au  BufNewFile,BufRead *.md set syntax=markdown
+  au  BufNewFile,BufRead *.mkd set syntax=markdown
   au  BufNewFile,BufRead *.markdown set syntax=markdown
+  " Automatically use mustache syntax highlighting for .mustache files
   au  BufNewFile,BufRead *.mustache set syntax=mustache
 endif
 
