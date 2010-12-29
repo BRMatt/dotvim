@@ -19,6 +19,8 @@ if has("autocmd")
   au  BufNewFile,BufRead *.markdown set syntax=markdown
   " Automatically use mustache syntax highlighting for .mustache files
   au  BufNewFile,BufRead *.mustache set syntax=mustache
+  " Automatically use puppet syntax highlighting for .pp files
+  au  BufNewFile,BufRead *.pp set syntax=puppet
 endif
 
 
