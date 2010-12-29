@@ -205,6 +205,50 @@ Check out the 'vimrc' file for more...
     * `:Ack --ruby ...` - search only ruby files.
     * `:h Ack` - more help about Ack
 
+*   textobj-rubyblock ([vim.org](http://www.vim.org/scripts/script.php?script_id=3382)) ([github](https://github.com/nelstrom/vim-textobj-rubyblock))
+
+    A custom text object for selecting ruby blocks.
+
+    In other words it teaches vim to understand what is ruby block, just like vim already understands what is word, paragraph, sentence etc.
+
+    It works with begin/end, if/else/end etc.
+
+    * `var` - select ruby block around the cursor including begin/end
+    * `vir` - select insides of a ruby block around the cursor not including begin/end
+    * `dar` - delete ruby block around the cursor
+    * etc...
+
+    Some 'trickier' usage patterns.
+
+    * `varar` - select the ruby block that is around the ruby block that is around the cursor. including begin/end
+    * `vararir` - select insides of the ruby block that is around the ruby block that is around the cursor. not including begin/end
+    * ...
+
+*   vim-indentobject ([github](https://github.com/austintaylor/vim-indentobject))
+
+    A text object for manipulating blocks based on their indentation
+
+    This is good for Python, YAML, HAML etc.
+
+    Usage is similar to textobj-rubyblock, just with `i` instead of `r`
+
+    * `vai` / `vii` - select indent block including / excluding the outer lines
+    * ...
+
+*   greplace ([vim.org](http://www.vim.org/scripts/script.php?script_id=1813))
+
+    Replace a pattern across multiple files interactively
+
+    Use `:Gsearch` to search for pattenr. Edit the result buffer to your
+    liking, then `:Greplace` to incorporate your edits into the source files
+
+    * `:Gsearch` - Search for a given pattern in the specified group of files
+      and display the matches in the replace buffer.
+    * `:Gbuffersearch` - Search for a given pattern in all the buffers in the Vim buffer list.
+    * `:Greplace` - Incorporate the modifications from the replace buffer into
+      the corresponding files.
+
+
 #### "Support" and minor plugins
 
 *   pathogen 1.2 ([vim.org](http://www.vim.org/scripts/script.php?script_id=2332)) ([github](http://github.com/tpope/vim-pathogen))
@@ -213,6 +257,10 @@ Check out the 'vimrc' file for more...
     is used as the common root for all the plugins.
 
     Already configured
+
+*   textobj-user ([vim.org](http://www.vim.org/scripts/script.php?script_id=2100)) ([github](https://github.com/kana/vim-textobj-user))
+
+    Support for user-defined text objects
 
 *   misc-lang-settings
 
