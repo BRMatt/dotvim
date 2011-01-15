@@ -1,5 +1,7 @@
 " Turn off space tabs, use hard tabs
 set noexpandtab
+set shiftwidth=4
+set tabstop=4
 
 " Turn off visualbell, it's very very annoying
 set novisualbell
