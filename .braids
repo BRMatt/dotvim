@@ -58,7 +58,7 @@ bundle/haml:
 bundle/mustache.vim: 
   branch: master
   remote: braid/bundle/mustache.vim
-  revision: 3817a1b9a3938bc21f13ea73f660f493d67c6c5e
+  revision: ee5ef66e1c97b777e2fb11b8343e0091bcefbbf1
   squashed: true
   type: git
   url: git://github.com/juvenn/mustache.vim.git
