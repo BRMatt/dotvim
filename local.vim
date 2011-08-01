@@ -1,9 +1,12 @@
 let $VIMHOME=expand('<sfile>:p:h')
 
+" Auto detect filetypes
+filetype on
+
 " Turn off space tabs, use hard tabs
 set noexpandtab
-set shiftwidth=4
-set tabstop=4
+set sw=4
+set ts=4
 
 " Stop vim from saving files all the time
 set noautowriteall
@@ -19,6 +22,10 @@ set formatoptions=qrn1
 " Settings for snipmate templates
 let g:snips_author = 'Matt Button <matthew@sigswitch.com>'
 let g:snippets_dir = $VIMHOME.'/snippets'
+
+" Settings for NERDTree
+let g:NERDTreeChDirMode = 2
+let g:NERDTreeShowBookmarks = 1
 
 " Just set the colorscheme
 colorscheme earendel
