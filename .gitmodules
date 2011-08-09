@@ -2,8 +2,11 @@
 	path = bundle/cucumber.vim
 	url = https://github.com/tpope/vim-cucumber.git
 [submodule "bundle/command-t/vendor/vimball"]
-	path = vendor/vimball
+	path = bundle/command-t/vendor/vimball
 	url = git://github.com/tomtom/vimball.rb.git
 [submodule "bundle/command-t/vendor/vimscriptuploader"]
-	path = vendor/vimscriptuploader
+	path = bundle/command-t/vendor/vimscriptuploader
 	url = git://github.com/tomtom/vimscriptuploader.rb.git
+[submodule "bundle/vim-textobj-user/mduem"]
+	path = bundle/vim-textobj-user/mduem
+	url = https://github.com/kana/mduem.git
