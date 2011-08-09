@@ -27,3 +27,8 @@ nmap <leader>n :cn<CR>
 
 "set completeopt=menuone,preview,longest
 set completeopt=menuone,preview
+
+" driving me insane this thing
+nmap :W :w
+nmap :Q :q
+nmap :E :e
