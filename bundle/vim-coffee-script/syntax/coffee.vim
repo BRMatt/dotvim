@@ -39,13 +39,8 @@ hi def link coffeeException Exception
 syntax match coffeeOperator /\<\%(instanceof\|typeof\|delete\)\>/
 hi def link coffeeOperator Operator
 
-<<<<<<< HEAD
-syntax match coffeeKeyword /\<\%(new\|in\|of\|by\|and\|or\|not\|is\|isnt\|class\|extends\|super\|own\|do\)\>/
-highlight default link coffeeKeyword Keyword
-=======
 syn match coffeeKeyword /\<\%(new\|in\|of\|by\|and\|or\|not\|is\|isnt\|class\|extends\|super\|own\|do\)\>/
 hi def link coffeeKeyword Keyword
->>>>>>> efde90d1c3cbd64c51b84777fd66c73750b6a1d8
 
 syn match coffeeBoolean /\<\%(true\|on\|yes\|false\|off\|no\)\>/
 hi def link coffeeBoolean Boolean
